@@ -1,6 +1,6 @@
 {
   "name": "sortrjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a package for all sorting algorithms in javascript.",
   "main": "dist/index.cjs",
   "type": "module",
