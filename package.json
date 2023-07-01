@@ -1,0 +1,43 @@
+{
+  "name": "sortr",
+  "version": "1.0.0",
+  "description": "This is a package for all sorting algorithms in javascript.",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "bin": {
+    "piggy-sdk": "./dist/index.cjs"
+  },
+  "scripts": {
+    "start": "node src/try.js",
+    "compile-types": "tsc",
+    "rollup": "rollup --config",
+    "build": "npm-run-all rollup compile-types",
+    "prepublish": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joepolymath/Sortr.git"
+  },
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "sortr",
+    "sort",
+    "algorithms"
+  ],
+  "author": "Joshua Ajagbe & Annabel Nnawuihe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joepolymath/Sortr/issues"
+  },
+  "homepage": "https://github.com/Joepolymath/Sortr#readme"
+}
