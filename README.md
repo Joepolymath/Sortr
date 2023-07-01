@@ -9,7 +9,7 @@ Firstly, install sortr. `npm install sortrjs`
 You can hence import sortr into your codebase.
 
 ```
-const sortr = require('sortrjs');
+const sortr = require('sortrjs').default;
 
 // to use Merge Sort for example, you can write it as follows
 const sortedArray = sortr.merge.sort([43, 12, 54, 1, 3, 2, 98])
