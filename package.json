@@ -1,5 +1,5 @@
 {
-  "name": "sortr",
+  "name": "sortrjs",
   "version": "1.0.0",
   "description": "This is a package for all sorting algorithms in javascript.",
   "main": "dist/index.cjs",
